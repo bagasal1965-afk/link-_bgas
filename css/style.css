@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: #21d259;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.container{
+   width: 100%;
+   max-width: 400px;
+   text-align: center;
+}
+
+.profile-img{
+     width: 110px;
+     height: 110px;
+     border-radius: 50px;
+     object-fit: cover;
+     margin-bottom: 15px;
+}
+
+.nama{
+
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link-btn1{
+    display: block;
+    background-color: #ff0808;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 18px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.link-btn2{
+    display: block;
+    background-color: #c1d412;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 18px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.link-btn3{
+    display: block;
+    background-color: #f515cf;
+    color: rgb(12, 17, 9);
+    text-decoration: none;
+    padding: 18px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.link-btn1:hover{
+    background-color: #555551;
+    transform: scale(1.02);
+    
+}
+.link-btn2:hover{
+    background-color: #10d3d3;
+    transform: scale(1.02);
+    
+}
+
+.link-btn3:hover{
+    background-color: #21f00e;
+    transform: scale(1.02);
+    
+}
